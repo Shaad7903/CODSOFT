@@ -16,7 +16,7 @@ body {
 .container {
   position: relative;
   height: 450px;
-  max-width: 300px;
+  max-width: 320px;
   width: 100%;
   border-radius: 12px;
   padding: 10px 20px 20px;
@@ -36,7 +36,7 @@ body {
   pointer-events: none;
   box-shadow: inset 5px 5px 12px #fff,
                     -5px -5px 12px rgba(0,0,0,0.16);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .buttons {
   display: grid;
@@ -52,8 +52,12 @@ body {
   font-size: 20px;
   cursor: pointer;
   background-color: #eee;
-  box-shadow: inset -3px -3px 15px #fff,
+  box-shadow:  -3px -3px 15px #fff,
                     2px 2px 1px rgba(0,0,0,0.16);
+}
+.buttons button:hover {
+  background-color: rgb(217, 249, 255);
+  transition: 1s;
 }
 .buttons button:active {
   transform: scale(0.99);
