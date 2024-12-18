@@ -358,9 +358,9 @@ body{
 
 .img-container{
     position: absolute;
-    left: 15%;
+    left: 25%;
     transform: translateX(-50%);
-    top: -100px;
+    top: -10px;
     width: 700px;
     height: 520px;
 }
@@ -419,7 +419,7 @@ body{
 
 .info-card.two .img-container{
     top: 0;
-    left: 60%;
+    left: 55%;
     transform: translateX(0);
 }
 
